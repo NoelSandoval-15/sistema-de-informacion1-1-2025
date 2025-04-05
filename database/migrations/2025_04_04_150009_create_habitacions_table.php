@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('habitacions', function (Blueprint $table) {
             $table->id();
+            // comantarios
             $table->timestamps();
         });
     }
