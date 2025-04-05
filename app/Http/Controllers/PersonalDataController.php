@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Personal_data;
+use App\Models\PersonalData;
 use Illuminate\Http\Request;
 
 class PersonalDataController extends Controller
@@ -34,7 +34,7 @@ class PersonalDataController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Personal_data $personal_data)
+    public function show(PersonalData $personalData)
     {
         //
     }
@@ -42,7 +42,7 @@ class PersonalDataController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Personal_data $personal_data)
+    public function edit(PersonalData $personalData)
     {
         //
     }
@@ -50,7 +50,7 @@ class PersonalDataController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Personal_data $personal_data)
+    public function update(Request $request, PersonalData $personalData)
     {
         //
     }
@@ -58,7 +58,7 @@ class PersonalDataController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Personal_data $personal_data)
+    public function destroy(PersonalData $personalData)
     {
         //
     }

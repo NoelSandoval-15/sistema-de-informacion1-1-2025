@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Tipo_pago;
+use App\Models\TipoPago;
 use Illuminate\Http\Request;
 
 class TipoPagoController extends Controller
@@ -34,7 +34,7 @@ class TipoPagoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Tipo_pago $tipo_pago)
+    public function show(TipoPago $tipoPago)
     {
         //
     }
@@ -42,7 +42,7 @@ class TipoPagoController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Tipo_pago $tipo_pago)
+    public function edit(TipoPago $tipoPago)
     {
         //
     }
@@ -50,7 +50,7 @@ class TipoPagoController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Tipo_pago $tipo_pago)
+    public function update(Request $request, TipoPago $tipoPago)
     {
         //
     }
@@ -58,7 +58,7 @@ class TipoPagoController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Tipo_pago $tipo_pago)
+    public function destroy(TipoPago $tipoPago)
     {
         //
     }
