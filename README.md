@@ -1,5 +1,9 @@
 # 🏨 Sistema de Gestión Hotelera - Laravel
 
+<div align="center">
+    <img title="a title" alt="Alt text" src="https://github.com/user-attachments/assets/14b2d50e-6dc0-4745-ba4b-c039f795bb38">
+</div>
+
 Este proyecto es un **Sistema de Información para la Optimización y Gestión de Hoteles**, desarrollado con Laravel. Su propósito principal es centralizar y optimizar la administración de reservas, facturación, servicios adicionales y clientes, proporcionando una plataforma moderna, segura y accesible.
 
 ## 🎯 Objetivo General
