@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('habitacions', function (Blueprint $table) {
             $table->id();
-            // comantarios
+            $table->string('numero');
+            $table->string('precio');
             $table->timestamps();
         });
     }

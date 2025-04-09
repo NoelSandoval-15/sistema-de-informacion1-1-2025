@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('personal_data', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre');
+            $table->string('apellido');
+            $table->string('telefono');
             $table->timestamps();
         });
     }

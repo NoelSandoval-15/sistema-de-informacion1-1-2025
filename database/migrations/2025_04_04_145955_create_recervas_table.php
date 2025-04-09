@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('recervas', function (Blueprint $table) {
             $table->id();
+            $table->time('fechainicio');
+            $table->time('fechafin');
             $table->timestamps();
         });
     }
